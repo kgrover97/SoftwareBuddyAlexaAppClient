@@ -1,0 +1,117 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.NoIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.YesIntent",
+      "samples": []
+    },
+    {
+      "name": "githubIssues",
+      "samples": [
+        "what are my issues",
+        "what are my tasks",
+        "what issues are assigned to me",
+        "what tasks are assigned to me"
+      ],
+      "slots": []
+    },
+    {
+      "name": "githubNumIssues",
+      "samples": [
+        "how many issues are assigned to me",
+        "how may tasks are assigned to me",
+        "how many tasks I have",
+        "how issues I have",
+        "how many tasks are assigned to me"
+      ],
+      "slots": []
+    },
+    {
+      "name": "githubNextIssue",
+      "samples": [
+        "what is my next issue",
+        "what is my next task",
+        "tell me my next task",
+        "wget my next task",
+        "open the next issue",
+        "open an issue",
+        "start next task",
+        "start next issue",
+        "start issue",
+        "start task",
+        "i want to start my next task",
+        "I want to start my next issue",
+        "what should I work on now",
+        "what issue should I work on",
+        "what task should I work on",
+        "what issue should I work on now",
+        "what task should I work on now"
+      ],
+      "slots": []
+    },
+    {
+      "name": "vcAddFilesIntent",
+      "samples": [
+        "add my files",
+        "add all my files",
+        "add my new files",
+        "add untracked files"
+      ],
+      "slots": []
+    },
+    {
+      "name": "vcCommitIntent",
+      "samples": [
+        "commit",
+        "commit changes",
+        "commit my change",
+        "commit my code"
+      ],
+      "slots": []
+    },
+    {
+      "name": "vcPullIntent",
+      "samples": [
+        "to pull the latest changes",
+        "to get the latest changes",
+        "to get updates",
+        "to get latest changes",
+        "to get latest",
+        "fetch",
+        "to fetch latest",
+        "to fetch remote",
+        "to fetch updates",
+        "to get remote"
+      ],
+      "slots": []
+    },
+    {
+      "name": "vcPushIntent",
+      "samples": [
+        "push",
+        "push my changes",
+        "submit my changes",
+        "to push",
+        "to send my changes",
+        "to send",
+        "to submit"
+      ],
+      "slots": []
+    }
+  ]
+}
